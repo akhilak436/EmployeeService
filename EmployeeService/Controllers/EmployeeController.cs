@@ -20,6 +20,7 @@ namespace EmployeeService.Controllers
 
         }
 
+        //api/employee/id
         public Employee Get(int id)
         {
             using (WEBAPIEntities dbcontext = new WEBAPIEntities())
