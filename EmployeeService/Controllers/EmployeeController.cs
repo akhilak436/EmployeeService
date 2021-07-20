@@ -10,6 +10,7 @@ namespace EmployeeService.Controllers
     public class EmployeeController : ApiController
     {
         /*
+         *this is a get method
         public IEnumerable<Employee> Get()
         {
             using (WEBAPIEntities dbcontext=new WEBAPIEntities())
